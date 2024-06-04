@@ -1,0 +1,283 @@
+%fuente: https://www.overleaf.com/latex/templates/einsteins-cv/dqstkjsystrm
+\documentclass[theme]{cv_einstein}
+% Read cv_einstein.cls to look at all available options
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage{xcolor}
+% Caution: pargin=0cm means the CV won't print well.
+% Using this template means that you accept it.
+\usepackage[a4paper, portrait, margin=0cm]{geometry}
+\usepackage{fontawesome}
+\usepackage{array} % For better tabl formatting. See: https://tex.stackexchange.com/questions/12703/how-to-create-fixed-width-table-columns-with-text-raggedright-centered-raggedlef
+\usepackage{enumitem} % See https://tex.stackexchange.com/a/199073/304372
+\usepackage[pdftex, pdfauthor={Miguel Salazar}, pdftitle={CV Miguel Salazar}, pdfsubject={CV Miguel Salazar},
+pdfkeywords={Economics, Applied Research, Public Policy}]
+{hyperref}
+
+
+
+
+\begin{document}
+%------------------------------------------------------------------ Variables
+% The left column contains the goals, summary, skills, etc.
+% We define its width w.r.t. the width of the whole page
+\newcommand{\lratio}{0.31}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{\lratio\textwidth}
+% The right column contains the main content, i.e. work experience, education, etc.
+\newcommand{\rratio}{0.7}
+\newlength{\rightcolwidth}
+\setlength{\rightcolwidth}{\rratio\textwidth}
+% Space to leave below a section, above the title of the following section
+\newlength{\sectionspace}
+\setlength{\sectionspace}{1cm}
+% Space to leave below an item, above the following item
+\newlength{\itemspace}
+\setlength{\itemspace}{10pt}
+% fbox stuff. You won't need to adjust these. You can safely ignore.
+\setlength{\fboxrule}{0pt}
+\setlength{\fboxsep}{4pt}
+% Shortcuts to have table columns with fixed width AND positionning: [L]eft, [C]enter, [R]ight
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+% Removes the (ugly) box around html links
+\hypersetup{hidelinks}
+%------------------------------------------------------------------
+\title{Albert Einstein}
+\author{\LaTeX{} Albert Einstein}
+\date{1955}
+
+
+
+    %-------------------------------------------------------------
+    %-------------------------------------------------------------
+    %-------------------------------------------------------------
+    %                       UPPER PART
+    %-------------------------------------------------------------
+    %-------------------------------------------------------------
+    %-------------------------------------------------------------
+
+    %-------------------------------------------------------------
+    %                       HEADER
+    %-------------------------------------------------------------
+    % Usage: \header{background-color}{name-color}{name}{title-color}{title}{summary-color}{summary}{portrait.jpg}{email@example.com}{phone}{country-flag.png}{city}{linkedin-id}
+    \header
+    {Miguel Salazar}
+    {Investigación Económica $\cdot$ Análisis de datos $\cdot$ Indicadores}
+    {
+        Economista de la Universidad Nacional de Colombia. Con experiencia en análisis y
+        extracción de información en grandes bases de datos, investigación y métodos de evaluación de impacto; Office Avanzado
+        y dominio del idioma inglés.% Do NOT end with a newline
+    }
+    {} %ACA VA LA FOTO 
+
+    %-------------------------------------------------------------
+    %                       CONTACT BAND
+    %-------------------------------------------------------------
+    % Usage: \contactband{background-color}{text-color}{email}{phone-number}{country-flag}{city}{linkedin-id}
+    \contactband{miguelsloan18@gmail.com}{+57 318 889 25 10}{Flag_of_Colombia.png}{Bogotá}{miguel-salazar-reyes/}{miguelsalazar18}
+    
+    \vspace{\headerheight} % The header is only a TIKZ image. We must give it space to appear and not be hidden by what comes next.
+
+    \setlength{\columnsep}{0px}
+    \columnratio{\lratio}
+    \begin{paracol}{2}
+        \paracolbackgroundoptions
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %                       LEFT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{leftcolumn*} \noindent \footnotesize
+            {\color{white}
+            %-------------------------------------------------------------
+            %                       GOALS
+            %-------------------------------------------------------------
+
+
+            %-------------------------------------------------------------
+            %                       SKILLS
+            %-------------------------------------------------------------
+           % \vspace{1.75\sectionspace}
+            \heading{\faPuzzlePiece}{Fortalezas}
+            \begin{minipage}[c]{\leftcolwidth}
+                \begin{tabular}{c}
+                    \hspace{-3pt}\bubblediagram{
+                    % Usage: \bubblediagram{list of comma-separated text items}
+                    % The first item will be written in the main bubble, at the center of the diagram
+                    % All other items will be written in their own satellite bubble
+                        % Main bubble
+                        {\textbf{Orientado} \\ \textbf{a} \\ \textbf{Resultados}  \\ \textbf{}},
+                        % Satellites
+                        Innovador,
+                        Pensamiento \\ estratégico,
+                        Solución \\ de \\ problemas,
+                        Trabajo\\en \\ equipo,
+                        Planificación \\ y \\ Organización
+                        }
+                \end{tabular}
+            \end{minipage}
+        }
+        \end{leftcolumn*}
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %                       RIGHT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{rightcolumn}\noindent \small
+            %-------------------------------------------------------------
+            %                       WORK EXPERIENCE
+            %-------------------------------------------------------------
+            \hspace{-2.4pt}\heading{\faSuitcase}{EXPERIENCIA LABORAL}
+            % MME
+            \cvevent{Dic 2023}{Sep 2023}{Economista CONPES}{Ministerio de Minas y Energía}{Bogotá, COL}{assets/Logo_MME2.png}
+            {\textbf{Funciones:} Consolidar y crear indicadores para dar seguimiento a políticas públicas, planes estratégico sectorial y estratégico institucional del sector minero energético. 
+            Apoyar el seguimiento a los indicadores mineroenergéticos del PND y los derivados CONPES sectoriales.
+
+            \textbf{Logros}:
+            Aportar al cumplimiento de los compromisos mineroenergéticos del Plan Nacional de Desarrollo adquiridos en los CONPES.
+            
+            \textbf{-} Apoyar en la formulación de documentos CONPES sectoriales para la política nacional de reindustrialización y el sistema nacional de cuidado.}
+            \vspace{0.7mm}\\
+            % ANLA
+            \cvevent{Dic 2022}{Jul 2021}{Economista Oficina Asesora de Planeación}{Autoridad Nacional de Licencias Ambientales-ANLA}{Bogotá, COL}{assets/ANLA.png}
+            {\textbf{Funciones:} Construcción y seguimiento de indicadores de impacto ambiental. Elaboración de estudios económicos con impacto ambiental.\hspace{70.0mm} \textbf{-} Implementación de metodologías e instrumentos para la planeación estratégica de los planes, programas y proyectos de la ANLA.
+            
+            \textbf{Logros}:
+            Aportar en la creación de un centro de costos para la ANLA,
+            mediante la captura de datos de los trabajadores de la entidad.
+            
+            \textbf{-} Contribuir en la predicción de la demanda de los servicios que presta la ANLA; con el objetivo lograr la sostenibilidad financiera de la entidad, usando datos de licenciamiento ambiental.}
+            \vspace{0.7mm}\\
+            % Congreso
+            \cvevent{Abr 2021}{Sep 2020}{Asesor Económico UTL}{Senado de la República}{Bogotá, COL}{assets/congres.png}
+            {\textbf{Funciones:} Realizar estudios económicos para formular proyectos de ley.   
+            
+            \textbf{Logros}: 
+            Aportar en el fundamento económico para la formulación de proyectos de ley. Además de estructurar bases para iniciativas legislativas orientadas al diseño y cambio de políticas públicas.
+            
+            \textbf{-} Contribuir en la estructuración de las iniciativas legislativas presentadas, identificando su impacto económico y social.}
+            \vspace{0.7mm}\\
+            % Econometría
+            \cvevent{Jun 2020}{Abr 2020}{Asistente de investigación}{Econometría Consultores}{Bogotá, COL}{assets/Econometria.jpg}
+            {\textbf{Funciones:} Búsqueda, análisis y redacción de documentos sobre la regulación normativa de los mercados energéticos internacionales.  
+            
+            \textbf{Logros:} 
+            Contribuir en la construcción de un concepto regulatorio aplicable al mercado energético colombiano, en colaboración con la CREG. }
+            \vspace{0.2mm}\\
+            % MHCP
+            %\cvevent{Dic 2019}{Jul 2019}{Pasantía Universitaria}{Minesterio de Hacienda y Crédito Público}{Bogotá, COL}{assets/Logo_Minhacienda.png}
+            %{Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante. Phasellus adipiscing semper elit. Proin fermentum massa ac quam. Sed diam turpis, molestie vitae, placerat a, molestie nec, leo.}
+            %\vspace{\itemspace}\\
+            % Banrep
+            %\cvevent{Jun 2019}{Ene 2019}{Prácticas profesionales}{Banco de la República}{Bogotá, COL}{assets/banrep.png}
+            %{Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis. Donec nonummy pellentesque ante. Phasellus adipiscing semper elit. Proin fermentum massa ac quam. Sed diam turpis, molestie vitae, placerat a, molestie nec, leo.}
+            %\vspace{0.1cm}\\
+            \fbox{
+                Experiencias laborales anteriores en mi perfil de  \href{https://www.linkedin.com/in/miguel-salazar-reyes/}{\faLinkedinSquare \ \textbf{LinkedIn}}.
+            }%\fbox
+           % \vspace{0.2cm}\\
+        \end{rightcolumn}
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %                       LEFT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{leftcolumn*}\noindent \footnotesize
+        {\color{white}
+            %-------------------------------------------------------------
+            %                       TECH
+            %-------------------------------------------------------------
+            \heading{\faWrench}{Habilidades}
+            \begin{minipage}[c]{\leftcolwidth}
+                \begin{tabular}{r|l}
+                    Excel & \pictofraction{4}\\[0.3em]
+                    Bloomberg & \pictofraction{4}\\[0.3em]
+                    Stata & \pictofraction{3}\\[0.3em]
+                    R & \pictofraction{3}\\[0.3em]
+                    Python & \pictofraction{3}\\[0.3em]
+                    Matlab & \pictofraction{1}
+                \end{tabular}
+            \end{minipage}
+        }
+        \end{leftcolumn*}
+
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+          %                       RIGHT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{rightcolumn}\noindent \small
+            %-------------------------------------------------------------
+            %                     FORMAL-EDUCATION
+            %-------------------------------------------------------------
+            %\phantom{} \\ % To leave a margin with the top of the page
+            \heading{\faGraduationCap}{Educación}
+            % Uniandes
+            \cvevent{2021}{}{Maestría en economía aplicada (MEcA)}{Universidad de los Andes}{Bogotá, COL}{assets/Los_Andes.png}
+            {Enfoque en métodos de Big data, Machine Learning y economía aplicada a políticas públicas.}
+            \vspace{0.7mm}\\
+            % UNAL
+            \cvevent{2014}{2019}{Pregrado en economía}{Universidad Nacional de Colombia}{Bogotá, COL}{assets/unal.png}
+            {Interés en temas econométricos, investigación económica y mercados
+            financieros. 
+            Becario académico durante 3 años.}
+        %\vspace{\sectionspace}
+        \end{rightcolumn}
+        %-------------------------------------------------------------
+        %                       PAGE 2
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %\newpage
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %                       LEFT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{leftcolumn*} \noindent \footnotesize
+        {\color{white}
+            %-------------------------------------------------------------
+            %                       LANGUAGES
+            %-------------------------------------------------------------
+            \phantom{} \\ % To leave a margin with the top of the page
+            \heading{\faGlobe}{Lenguajes}
+            \begin{minipage}[r]{\leftcolwidth}
+                \begin{tabular}{r|l}
+                    Inglés & Intermedio Alto\\[0.3em]
+                    Español & Nativo\\[0.3em]
+                    Alemán & Nociones
+                \end{tabular}
+            \end{minipage}
+            \vspace{\sectionspace}
+        }
+        \end{leftcolumn*}
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+      
+        
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        %                       RIGHT COLUMN
+        %-------------------------------------------------------------
+        %-------------------------------------------------------------
+        \begin{rightcolumn}\noindent \small
+
+            %-------------------------------------------------------------
+            %                       PUBLICATIONS
+            %-------------------------------------------------------------
+            %\vspace{\sectionspace}
+            \heading{\faBook}{Publicaciones}
+            % Usage: \publication{1:date}{2:title}{3:publisher}{4:publisher-logo}{5:text}
+            \publication{Nov 2020}{Impacto de la pandemia sobre el mercado laboral en Colombia}{Universidad Nacional de Colombia}{assets/unal2.png}
+            {{\href{https://drive.google.com/file/d/1AzVX2deEQoEhC44FLiKz5t5iptAkNcFs/view?usp=sharing}{\textbf{Documento escuela de economía 111 FCE- CID}} }{}{}}
+            \vspace{0.3mm}\\
+            % Usage: \publication{1:date}{2:title}{3:publisher}{4:publisher-logo}{5:text}
+            \publication{Ago 2020}{Impacto de la pandemia COVID-19 sobre la economía colombiana}{Universidad Nacional de Colombia}{assets/unal2.png}
+            {\href{https://drive.google.com/file/d/1vqIBLKIVT5UrMVINAs1qR1dXYvAwEpYg/view?usp=sharing}{\textbf{Documento escuela de economía 108 FCE- CID}}}{}{}
+            \vspace{0.2mm}\\
+        \end{rightcolumn}
+        \vspace{20em}
+    \end{paracol}
+\end{document}
