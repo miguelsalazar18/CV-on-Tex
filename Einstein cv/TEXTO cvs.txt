@@ -1,0 +1,183 @@
+DATOS 
+	ENCABEZADOS: Análisis de datos · Indicadores . Investigación Económica
+	
+	MIN ENERGÍA:
+	Economista CONPES
+
+	Funciones: Consolidar y crear indicadores para dar seguimiento a políticas públicas,
+	planes estratégico sectorial y estratégico institucional del sector minero energético.
+	Apoyar el seguimiento a los indicadores mineroenergéticos del PND y los derivados
+	CONPES sectoriales.
+
+	Logros: Aportar al cumplimiento de los compromisos mineroenergéticos del Plan
+	Nacional de Desarrollo adquiridos en los CONPES.
+	- Apoyar en la formulación de documentos CONPES sectoriales para la política nacional
+	de reindustrialización y el sistema nacional de cuidado.
+
+	ANLA:
+	Economista Oficina Asesora de Planeación	
+
+	Funciones: Construcción y seguimiento de indicadores de impacto ambiental.
+	Elaboración de estudios económicos con impacto ambiental.
+	- Implementación de metodologías e instrumentos para la planeación estratégica de los
+	planes, programas y proyectos de la ANLA.
+
+	Logros: Aportar en la creación de un centro de costos para la ANLA, mediante la captura
+	de datos de los trabajadores de la entidad.
+	- Contribuir en la predicción de la demanda de los servicios que presta la ANLA; con el
+	objetivo lograr la sostenibilidad financiera de la entidad, usando datos de licenciamiento
+	ambiental.
+	
+	SENADO:	
+	Asesor Económico UTL
+
+	Funciones: Realizar estudios económicos para formular proyectos de ley.
+
+	Logros: Aportar en el fundamento económico para la formulación de proyectos de ley.
+	Además de estructurar bases para iniciativas legislativas orientadas al diseño y cambio
+	de políticas públicas.
+	- Contribuir en la estructuración de las iniciativas legislativas presentadas, identificando
+	su impacto económico y social.
+	
+	ECONOMETRÍA:
+	Asistente de investigación
+	
+	Funciones: Búsqueda, análisis y redacción de documentos sobre la regulación
+	normativa de los mercados energéticos internacionales.
+
+	Logros: Contribuir en la construcción de un concepto regulatorio aplicable al mercado
+	energético colombiano, en colaboración con la CREG
+	
+INVESTIGACIÓN 
+	ENCABEZADOS: Análisis de datos · Investigación Económica · Políticas Públicas
+	MIN ENERGÍA:
+	Economista CONPES
+	
+	Funciones: Caracterizar las políticas públicas del sector minero energético.Apoyo en el análisis 
+	de la integración de las políticas públicas sectoriales y las metas minero energéticas del PND, incluyendo recomendaciones para ejecución efectiva de las políticas.
+	Apoyo en la formulación de documentos CONPES sectoriales, alineando compromisos adquiridos en el sector con el PND. 
+	
+	Logros:Apoyar en la formulación de documentos CONPES sectoriales para la política nacional
+	de reindustrialización y el sistema nacional de cuidado.
+	Realizar un estudio para la toma de decisiones de la OPGI del MME sobre las politicas vigentes y su estado de cumplimiento. 
+	
+	ANLA:
+	Economista Oficina Asesora de Planeación
+	Funciones: Elaboración de estudios económicos con impacto ambiental; construcción y seguimiento de indicadores de impacto ambiental.
+	- Implementación de metodologías e instrumentos para la planeación
+	estratégica de los planes, programas y proyectos de la ANLA.
+
+	Logros: Aportar en la creación de un programa nacional de reducciones de gases de efecto invernadero en entidades públicas.
+	- Participar en la creación de un concepto socioeconómico sobre la explotación de yacimientos no convencionales en el país.
+	
+	SENADO:
+	Asesor Económico UTL
+	Funciones: Realizar estudios económicos usados para la formulación de proyectos de ley.
+
+	Logros: Aportar en el fundamento económico para la formulación
+	de proyectos de ley. Además de estructurar bases para iniciativas legislativas orientadas al diseño y cambio de políticas públicas.
+	- Contribuir en la estructuración de iniciativas legislativas presentadas
+	por este despacho, identificando su impacto económico y social.	
+	
+	ECONOMETRÍA:
+	Asistente de investigación
+
+	Funciones: Búsqueda, análisis y redacción de documentos sobre la regulación normativa de los mercados energéticos internacionales.
+	
+	Logros: Contribuir en la construcción de un concepto regulatorio aplicable al mercado energético colombiano en colaboración con la CREG.
+
+
+GENERAL
+	ENCABEZADOS:Análisis de datos · Investigación Económica · Políticas Públicas
+	
+	MIN ENERGÍA:
+	Economista CONPES
+
+	Funciones:Consolidar y crear indicadores para dar seguimiento a políticas públicas,planes estratégico sectorial y estratégico institucional del sector minero energético.
+	Apoyar el seguimiento a los indicadores mineroenergéticos del PND y los derivados CONPES sectoriales.
+	Apoyo en la formulación de documentos CONPES sectoriales, alineando compromisos adquiridos en el sector con el PND.
+
+	Logros:Apoyar en la formulación de documentos CONPES sectoriales para la política nacional
+	de reindustrialización y el sistema nacional de cuidado.
+	 - Aportar al cumplimiento de los compromisos mineroenergéticos del Plan
+	Nacional de Desarrollo adquiridos en los CONPES.
+
+
+	ANLA:
+	Economista Oficina Asesora de Planeación
+
+	Funciones: Construcción y seguimiento de indicadores de impacto ambiental,
+	Elaboración de estudios económicos con impacto ambiental.
+	- Implementación de metodologías e instrumentos para la planeación
+	estratégica de los planes, programas y proyectos de la ANLA.
+
+	Logros: Aportar en la creación de un programa nacional de reducciones
+	de gases de efecto invernadero en entidades públicas.
+	
+	SENADO:
+	Asesor Económico UTL
+
+	Funciones: Realizar estudios económicos usados para la formulación de
+	proyectos de ley.
+
+	Logros: Aportar en el fundamento económico para la formulación
+	de proyectos de ley. Además de estructurar bases para iniciativas
+	legislativas orientadas al diseño y cambio de políticas públicas.
+	- Contribuir en la estructuración de iniciativas legislativas presentadas
+	por este despacho, identicando su impacto económico y social.
+	
+	ECONOMETRÍA:
+	Asistente de investigación
+	Funciones: Búsqueda, análisis y redacción de documentos sobre la regulación
+	normativa de los mercados energéticos internacionales.
+
+	Logros: Contribuir en la construcción de un concepto regulatorio aplicable
+	al mercado energético colombiano en colaboración con la CREG.
+
+MERK2  
+	ENCABEZADOS:Análisis de datos · Indicadores . Seguimiento mercados
+	
+	MIN ENERGÍA:
+	Economista CONPES
+	
+	Funciones: Realizar seguimiento al cumplimiento al componente minero energético del Plan Nacional de Desarrollo y la presentación de informes
+	Realizar seguimiento y monitoreo de los compromisos institucionales y sectoriales adquiridos en los documentos CONPES y acompañar en el proceso de reporte a los responsables.
+	
+	Logros:Aportar al cumplimiento de los compromisos mineroenergéticos del Plan
+	Nacional de Desarrollo adquiridos en los CONPES.
+	Aportar al cumplimiento de los compromisos mineroenergéticos del Plan
+	Nacional de Desarrollo adquiridos en los CONPES.
+	
+	
+	ANLA:
+	Economista Oficina Asesora de Planeación
+	
+	Funciones: Construcción y seguimiento de indicadores de impacto ambiental,
+	Elaboración de estudios económicos con impacto ambiental.
+	- Implementación de metodologías e instrumentos para la planeación
+	estratégica de los planes, programas y proyectos de la ANLA.
+
+	Logros: Aportar en la creación de un programa nacional de reducciones
+	de gases de efecto invernadero en entidades públicas.
+	
+	SENADO:	
+	Asesor Económico UTL
+	
+	Funciones: Realizar estudios económicos usados para la formulación de
+	proyectos de ley.
+	
+	Logros: Aportar en el fundamento económico para la formulación
+	de proyectos de ley. Además de estructurar bases para iniciativas
+	legislativas orientadas al diseño y cambio de políticas públicas.
+	- Contribuir en la estructuración de iniciativas legislativas presentadas
+	por este despacho, identicando su impacto económico y social.
+	
+	ECONOMETRÍA:
+	Asistente de investigación
+
+	Funciones: Búsqueda, análisis y redacción de documentos sobre la regulación
+	normativa de los mercados energéticos internacionales.
+
+	Logros: Contribuir en la construcción de un concepto regulatorio aplicable
+	al mercado energético colombiano en colaboración con la CREG.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
